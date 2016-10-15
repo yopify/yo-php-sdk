@@ -102,4 +102,4 @@ die;*/
  * Delete an event
  */
 /*pr($yoClient->deleteEvent(20));
-die;*/
+die; */

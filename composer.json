@@ -1,7 +1,7 @@
 {
   "name": "yopify/yo-php-sdk",
   "description": "Yo PHP SDK is the official SDK wrapper for the Yopify Yo API service",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "keywords": [
     "Yo",
     "notifications",
