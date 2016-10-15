@@ -52,7 +52,7 @@ $event = $yoClient->getEvent(EVENT_ID);
 #####Get list of events
 
 ```php
-$events = $client->getEvents(10, 1);
+$events = $client->getEvents(PER_PAGE, PAGE_NO);
 
 // Check for success
 if (isset($events->meta)) {
@@ -97,7 +97,7 @@ if (isset($yoEvent->data)) {
 #####Delete an event:
 
 ```php
-$deletedEvent = $yoClient->deleteEvent(20);
+$deletedEvent = $yoClient->deleteEvent(EVENT_ID);
 ```
 
 ## Support

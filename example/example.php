@@ -48,7 +48,7 @@ die;
 /**
  * Get list of events
  */
-/*$events = $client->getEvents(10, 1);
+/*$events = $yoClient->getEvents(10, 1);
 
 if (isset($events->meta)) {
     echo 'Current page: ', $events->meta->pagination->current_page, "\n";

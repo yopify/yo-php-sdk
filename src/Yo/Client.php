@@ -252,7 +252,7 @@ class Client
 
         $data = $this->call(
             [
-                'URL'    => '/api/yo/v1/events/' . $appId,
+                'URL'    => '/events/' . $appId,
                 'METHOD' => 'GET',
                 'DATA'   => [
                     'limit' => $limit,
